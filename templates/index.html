@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FoodShare</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="p-5 text-center">
+    <h1 class="display-5 fw-bold">FoodShare</h1>
+    <p>Reduce waste. Feed people. Donate surplus food near you.</p>
+
+    <a href="{{ url_for('donor') }}" class="btn btn-primary btn-lg m-2">I'm a Donor</a>
+    <a href="/login" class="btn btn-dark btn-lg m-2">Login</a>
+    <a href="{{ url_for('ngo') }}" class="btn btn-success btn-lg m-2">I'm NGO / Volunteer</a>
+
+    <footer class="mt-5 text-muted">Hackathon Demo</footer>
+</body>
+</html>
+
+

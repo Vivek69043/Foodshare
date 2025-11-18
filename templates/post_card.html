@@ -1,0 +1,35 @@
+<div class="card mb-3">
+    <div class="row g-0">
+        <div class="col-md-4">
+            {% if post.image %}
+            <img src="{{ url_for('static', filename='uploads/' + post.image) }}" class="img-fluid rounded-start">
+            {% else %}
+            <div class="bg-light text-center p-4">No Image</div>
+            {% endif %}
+        </div>
+
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5>{{ post.dish_name }} ({{ post.food_type }}) • {{ post.quantity }}</h5>
+
+                <p><b>Location:</b> {{ post.location }}</p>
+                <p><b>Pickup:</b> {{ post.pickup_time }}</p>
+                <p><b>Notes:</b> {{ post.notes }}</p>
+
+                {% if post.status == "Available" %}
+                <form method="POST" action="{{ url_for('claim') }}">
+                    <input type="hidden" name="post_id" value="{{ post.id }}">
+                    <input class="form-control mb-2" name="claimer" placeholder="Your Name" required>
+                    <button class="btn btn-success">Claim</button>
+                </form>
+                {% else %}
+                <p class="text-success">Claimed by {{ post.claimed_by }} at {{ post.claimed_at }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
