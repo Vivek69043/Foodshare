@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1763449794554,
+    "image": "20251118123954.jpeg",
+    "food_type": "Veg",
+    "dish_name": "samosa",
+    "quantity": "5",
+    "location": "RIT ROORKEE",
+    "pickup_time": "1:00 PM",
+    "notes": "fresh",
+    "status": "Claimed",
+    "claimed_by": "BINARY BRAINS",
+    "claimed_at": "2025-11-18 12:43:40"
+  },
+  {
+    "id": 1763449676036,
+    "image": "20251118123756.jpeg",
+    "food_type": "Veg",
+    "dish_name": "Butter paneer",
+    "quantity": "2",
+    "location": "RIT ROORKEE",
+    "pickup_time": "5",
+    "notes": "hygienic , freshly prepared",
+    "status": "Claimed",
+    "claimed_by": "zAd",
+    "claimed_at": "2025-11-18 17:25:18"
+  },
+  {
+    "id": 1763448666138,
+    "image": "",
+    "food_type": "Veg",
+    "quantity": "5",
+    "location": "RIT ROORKEE",
+    "pickup_time": "5",
+    "notes": "freshly prepared , hygienic",
+    "status": "Available",
+    "claimed_by": "",
+    "claimed_at": ""
+  },
+  {
+    "id": 1763448603810,
+    "image": "20251118122003.jpeg",
+    "food_type": "Veg",
+    "quantity": "5",
+    "location": "RIT ROORKEE",
+    "pickup_time": "5",
+    "notes": "Freshly prepared , Hygienic",
+    "status": "Available",
+    "claimed_by": "",
+    "claimed_at": ""
+  },
+  {
+    "id": 1763448603723,
+    "image": "20251118122003.jpeg",
+    "food_type": "Veg",
+    "quantity": "5",
+    "location": "RIT ROORKEE",
+    "pickup_time": "5",
+    "notes": "Freshly prepared , Hygienic",
+    "status": "Available",
+    "claimed_by": "Priyanshu",
+    "claimed_at": ""
+  },
+  {
+    "id": 1763448408005,
+    "image": "20251118121648.jpeg",
+    "food_type": "Veg",
+    "quantity": "5",
+    "location": "RIT ROORKEE",
+    "pickup_time": "5",
+    "notes": "Fresh food , Hygienic , Packed properly",
+    "status": "Claimed",
+    "claimed_by": "BINARY BRAINS",
+    "claimed_at": "2025-11-18 12:17:57"
+  },
+  {
+    "id": 1,
+    "image": "",
+    "food_type": "Veg",
+    "quantity": "20 packets",
+    "location": "Near City Hospital, Chennai",
+    "pickup_time": "Today 6:00 PM",
+    "notes": "Fresh home-cooked, packed hygienically.",
+    "status": "Claimed",
+    "claimed_by": "BINARY BRAINS",
+    "claimed_at": "2025-11-18 12:11:31"
+  }
+]
